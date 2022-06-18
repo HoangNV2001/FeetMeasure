@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+navbar {
+    background-color: #FFFFFF;
+    color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    column-gap: 20px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    margin-left: 50px;
+    color: #fc1c3c;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 50px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+    color: #e5e7eb;
+}
+
+li>a {
+    color: #fc1c3c;
+    text-decoration: none;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #fc1c3c;
+    font-size: 70px;
+    margin: 0;
+}
+
+p {
+    color: #808080;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    /*background-color: #1f2937;*/
+    /* flex-grow: 1; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #F5F5F5;
+    /* border: 4px ;
+    border-radius: 10px;
+    padding: 0px; */
+}
+.col-even {
+    display: flex;
+    flex-direction: column;
+    /*background-color: #1f2937;*/
+    flex-grow: 1;
+    justify-content: left;
+    align-items: left;
+    background: #dddddd;
+    padding: 5px;
+    border: 4px ;
+    border-radius: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.col-odd {
+    display: flex;
+    flex-direction: column;
+    /*background-color: #1f2937;*/
+    flex-grow: 1;
+    justify-content: left;
+    align-items: left;
+    background: #eeeeee;
+    padding: 5px;
+    border: 4px ;
+    border-radius: 10px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+label {
+  color: #808080;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 50px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+button {
+
+  color: #ec1c34;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+result {
+  background: #dddddd;
+  padding: 10px;
+  border: 4px ;
+  border-radius: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #ec1c34;
+  font-size: 24px;
+}
